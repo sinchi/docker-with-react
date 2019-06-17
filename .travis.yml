@@ -7,4 +7,4 @@ before_install
   - docker build -t ayoub/docker-with-react -f Dockerfile.dev .
 
 script
- - docker run ayoub/docker-with-react npm run test
+ - docker run ayoub/docker-with-react npm run test 
