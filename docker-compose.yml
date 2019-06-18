@@ -10,7 +10,7 @@ services:
           - /app/node_modules
           - .:/app
           
-     tests:
+   tests:
       build:
           context: .
           dockerfile: Dockerfile.dev      
